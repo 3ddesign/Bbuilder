@@ -27,13 +27,13 @@ class App extends Component {
 
         const person = {
             ...this.state.persons[personIndex]
-    };
+        };
         person.name = event.target.value;
 
         const persons = [...this.state.persons];
         persons[personIndex] = person;
 
-        this.setState({ persons: persons});
+        this.setState({persons: persons});
     }
 
     togglePersonsHandler = () => {
@@ -43,12 +43,13 @@ class App extends Component {
 
     render() {
         const myStyle = {
-            backgroundColor: 'white',
+            backgroundColor: 'green',
+            color: 'white',
             font: 'inherit',
             border: '1px solid blue',
             padding: '8px',
-            cursor: 'pointer'
-        }
+            cursor: 'pointer',
+        };
 
         let persons = null;
 
@@ -63,7 +64,6 @@ class App extends Component {
                             key={person.id}
                             changed={(event) => this.nameChangedHandler(event, person.id)}/>
                     })}
-
                     {/*<Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>*/}
                     {/*<Person name={this.state.persons[0].name} age={this.state.persons[0].age}/>*/}
                     {/*<Person name={this.state.persons[1].name} age={this.state.persons[1].age}*/}
@@ -71,15 +71,26 @@ class App extends Component {
                     {/*changed={this.nameChangedHandler}>test</Person>*/}
                 </div>
             );
+            myStyle.backgroundColor = 'red';
+        }
+
+        const classes = [];
+        if (this.state.persons.length <= 2) {
+            classes.push('red');
+        }
+        if (this.state.persons.length <= 1) {
+            classes.push('bold');
         }
 
         return (
             <div className="App">
+                <p className={classes.join(' ')}>Styling test</p>
                 <h1>Hi from react App!</h1>
                 <button style={myStyle} onClick={this.togglePersonsHandler}>Toggle Name</button>
                 {persons}
             </div>
-        );
+
+                );
     }
 }
 
