@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, { PureComponent } from 'react';
 import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from '../components/Cockpit/Cockpit';
 
-class App extends Component { //stateful component
+class App extends PureComponent { //stateful component, better use functional components?
     constructor(props) {
         super(props);
         console.log('[App.js] inside construcor', props ); // constructor hook
@@ -16,6 +16,12 @@ class App extends Component { //stateful component
     componentDidMount() {
         console.log('[App.js] inside componentDidMount()'); // componentWillMount hook
     }
+    //
+    // shouldComponentUpdate(nextProps, nextState ) {
+    //     console.log('[UPDATE Persons.js], inside shouldComponentUpdate', nextProps, nextState );
+    //     return true;
+    // }
+
 
     state = {
         persons: [
@@ -68,6 +74,7 @@ class App extends Component { //stateful component
 
         return (
             <div className={classes.App}>
+                <button onClick={() => {this.setState({showPersons: true})}}>Show Persons</button>
                 <Cockpit
                     appTitle={this.props.title}
                     showPersons={this.state.showPersons}
