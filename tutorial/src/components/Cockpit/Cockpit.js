@@ -1,6 +1,7 @@
 import React from 'react';
 
 import classes from './Cockpit.css';
+import  Aux from '../../hoc/aux';
 
 const cockpit = (props) => { //stateless component f
     const assignedClasses = [];
@@ -17,6 +18,7 @@ const cockpit = (props) => { //stateless component f
     }
 
     return (
+        <Aux>
         <div className={classes.Cockpit}>
             <h1>{props.appTitle}</h1>
             <p className={assignedClasses.join(' ')}>This is really working!</p>
@@ -25,6 +27,7 @@ const cockpit = (props) => { //stateless component f
                 onClick={props.clicked}>Toggle Persons
             </button>
         </div>
+        </Aux>
     );
 };
 
