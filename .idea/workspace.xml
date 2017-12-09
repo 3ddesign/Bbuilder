@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a2f84c-072a-41b6-bbcd-62e3333960ce" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/dmitry.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/react16.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/jest/cssTransform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/paths.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/webpack.config.dev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/webpack.config.prod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/start.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Persons/Person/Person.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Persons/Persons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/App.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/App.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/App.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="26a2f84c-072a-41b6-bbcd-62e3333960ce" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -220,12 +185,12 @@
       <workItem from="1512579427996" duration="1016000" />
       <workItem from="1512583276075" duration="7647000" />
       <workItem from="1512677825187" duration="2999000" />
-      <workItem from="1512801733751" duration="4171000" />
+      <workItem from="1512801733751" duration="4290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46117000" />
+    <option name="totallyTimeSpent" value="46236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-4" width="1280" height="1028" extended-state="6" />
