@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a2f84c-072a-41b6-bbcd-62e3333960ce" name="Default" comment="" />
+    <list default="true" id="26a2f84c-072a-41b6-bbcd-62e3333960ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -70,6 +72,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/tutorial/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -121,11 +124,6 @@
             <path>
               <item name="react16" type="b2602c69:ProjectViewProjectNode" />
               <item name="react16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react16" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react16" type="462c0819:PsiDirectoryNode" />
-              <item name="bbuilder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,12 +183,12 @@
       <workItem from="1512579427996" duration="1016000" />
       <workItem from="1512583276075" duration="7647000" />
       <workItem from="1512677825187" duration="2999000" />
-      <workItem from="1512801733751" duration="4290000" />
+      <workItem from="1512801733751" duration="4350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46236000" />
+    <option name="totallyTimeSpent" value="46296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-4" width="1280" height="1028" extended-state="6" />
