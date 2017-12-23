@@ -7,7 +7,7 @@ import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Modal from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 import Spinner from '../../components/UI/Sipnner/Spinner';
-import withErrorHandler from '../../hoc/WithErrorHandler/WithErrorHandler';
+import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 
 import * as actions from '../../store/actions/index';
 
