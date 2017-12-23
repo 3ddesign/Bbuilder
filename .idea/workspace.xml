@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26a2f84c-072a-41b6-bbcd-62e3333960ce" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/hoc/WithErrorHandler/WithErrorHandler.js" afterPath="$PROJECT_DIR$/src/hoc/withErrorHandler/withErrorHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" afterPath="$PROJECT_DIR$/src/containers/Checkout/ContactData/ContactData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Orders/Orders.js" afterPath="$PROJECT_DIR$/src/containers/Orders/Orders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/reducers/burgerBuilder.js" afterPath="$PROJECT_DIR$/src/store/reducers/burgerBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/reducers/order.js" afterPath="$PROJECT_DIR$/src/store/reducers/order.js" />
-    </list>
+    <list default="true" id="26a2f84c-072a-41b6-bbcd-62e3333960ce" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -409,12 +401,12 @@
       <workItem from="1513865904991" duration="1291000" />
       <workItem from="1513953395929" duration="4286000" />
       <workItem from="1513969573918" duration="1672000" />
-      <workItem from="1514011126461" duration="19377000" />
+      <workItem from="1514011126461" duration="19419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162580000" />
+    <option name="totallyTimeSpent" value="162622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-4" width="1280" height="1028" extended-state="6" />
