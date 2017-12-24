@@ -10,7 +10,7 @@ class Modal extends Component {
     }
 
     componentWillUpdate() {
-        console.log('componentWillUpdate')
+        // console.log('componentWillUpdate')
     }
 
     render() {

@@ -7,7 +7,7 @@ import WithClass from '../hoc/WithClass';
 class App extends PureComponent { //stateful component, better use functional components?
     constructor(props) {
         super(props);
-        console.log('[App.js] inside construcor', props ); // constructor hook
+
     }
 
     componentWillMount() {
@@ -63,7 +63,7 @@ class App extends PureComponent { //stateful component, better use functional co
     }
 
     render() {
-        console.log('[App.js] inside render()'); // render hook
+        // console.log('[App.js] inside render()'); // render hook
         let persons = null;
 
         if (this.state.showPersons) {
