@@ -26,10 +26,17 @@ const store = createStore(rootReducer, composeEnhancers(
 const app = (
     <Provider store={store}>
         <BrowserRouter>
-            <App/>
+            <App />
         </BrowserRouter>
     </Provider>
 );
 
 ReactDOM.render( app, document.getElementById( 'root' ) );
 registerServiceWorker();
+
+
+//Deploying steps:
+// 1. Check basepath
+// 2. Build and Optimize Project (npm run build)
+// 3. Server must serve index.html
+// 4. Uploading
